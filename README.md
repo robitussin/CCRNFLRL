@@ -5,4 +5,4 @@ This repository contains all of the code implementations of each topic in the co
 
 | Folder Name | Topic |
 | :---         |     :---:      |       
-| week_1   | The reinforcement learning problem |
+| week_1   | Probability Review, Introduction to Reinforcement Learning |
