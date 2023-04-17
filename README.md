@@ -7,4 +7,4 @@ This repository contains all of the code implementations of each topic in the co
 | :---         |     :---:      |       
 | week_1   | Statistics and Probability Review, Introduction to Reinforcement Learning |
 | week_2   | Introduction to Reinforcement Learning |
-| week_3-4   | Multi-Arm Bandit Problem, Naive Approaches, Epsilon Greedy, UCB, Thompson Sampling|
+| week_3-4   | Multi-Arm Bandit Problem and Approaches (Naive, Epsilon Greedy, UCB, Thompson Sampling) |
