@@ -8,4 +8,5 @@ This repository contains all of the code implementations of each topic in the co
 | week_1   | Statistics and Probability Review, Introduction to Reinforcement Learning |
 | week_2   | Introduction to Reinforcement Learning |
 | week_3-4   | Multi-Arm Bandit Problem and Approaches (Naive, Epsilon Greedy, UCB, Thompson Sampling) |
-| week_5   | Markov Decision Process |
+| week_5-6   | Markov Decision Process |
+| week_7   | Planning by Dynamic Programming |
