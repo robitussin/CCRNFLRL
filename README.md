@@ -12,7 +12,6 @@ This repository contains all of the code implementations of each topic in the co
 | week_7   | Planning by Dynamic Programming |
 | week_8   | Model Free Prediction - Monte-Carlo Methods |
 | week_9   | Model Free Prediction - Temporal-Difference Learning |
-| week_10   | Model Free Control - Monte-Carlo Methods |
-| week_11   | Model Free Control - Temporal-Difference Learning |
-| week_12   | Deep Learning based RL |
+| week_10   | Model Free Control - On Policy vs Off Policy, GLIE Monte-Carlo, SARSA, Q-Learning|
+| week_12   | Deep Learning based Reinforcement Learning |
 
