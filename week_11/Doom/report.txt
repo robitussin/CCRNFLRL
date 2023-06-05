@@ -1,0 +1,56 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 1 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: Doom.ipynb
+--------------------------------------------------------------------------------
+Doom.ipynb:496:28: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'Doom.ipynb'
+ outputting to 'Doomv2.ipynb'
+--------------------------------------------------------------------------------
+
+165:13: INFO: Renamed 'tf.variable_scope' to 'tf.compat.v1.variable_scope'
+169:27: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+170:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+173:28: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+182:25: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+187:61: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+190:35: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+205:25: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+210:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+213:35: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+228:25: INFO: Renamed 'tf.layers.conv2d' to 'tf.compat.v1.layers.conv2d'
+233:51: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+236:35: INFO: Renamed 'tf.layers.batch_normalization' to 'tf.compat.v1.layers.batch_normalization'
+245:27: INFO: Renamed 'tf.layers.flatten' to 'tf.compat.v1.layers.flatten'
+249:22: INFO: Renamed 'tf.layers.dense' to 'tf.compat.v1.layers.dense'
+252:58: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+256:26: INFO: Renamed 'tf.layers.dense' to 'tf.compat.v1.layers.dense'
+257:62: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+270:29: INFO: Renamed 'tf.train.RMSPropOptimizer' to 'tf.compat.v1.train.RMSPropOptimizer'
+272:0: INFO: Renamed 'tf.reset_default_graph' to 'tf.compat.v1.reset_default_graph'
+340:9: INFO: tf.summary.FileWriter requires manual check. The TF 1.x summary API cannot be automatically migrated to TF 2.0, so symbols have been converted to tf.compat.v1.summary.* and must be migrated manually. Typical usage will only require changes to the summary writing logic, not to individual calls like scalar(). For examples of the new summary API, see the Effective TF 2.0 migration document or check the TF 2.0 TensorBoard tutorials.
+340:9: INFO: Renamed 'tf.summary.FileWriter' to 'tf.compat.v1.summary.FileWriter'
+343:0: INFO: tf.summary.scalar requires manual check. The TF 1.x summary API cannot be automatically migrated to TF 2.0, so symbols have been converted to tf.compat.v1.summary.* and must be migrated manually. Typical usage will only require changes to the summary writing logic, not to individual calls like scalar(). For examples of the new summary API, see the Effective TF 2.0 migration document or check the TF 2.0 TensorBoard tutorials.
+343:0: INFO: Renamed 'tf.summary.scalar' to 'tf.compat.v1.summary.scalar'
+345:11: INFO: tf.summary.merge_all requires manual check. The TF 1.x summary API cannot be automatically migrated to TF 2.0, so symbols have been converted to tf.compat.v1.summary.* and must be migrated manually. Typical usage will only require changes to the summary writing logic, not to individual calls like scalar(). For examples of the new summary API, see the Effective TF 2.0 migration document or check the TF 2.0 TensorBoard tutorials.
+345:11: INFO: Renamed 'tf.summary.merge_all' to 'tf.compat.v1.summary.merge_all'
+374:8: INFO: Renamed 'tf.train.Saver' to 'tf.compat.v1.train.Saver'
+377:9: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+379:17: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+496:28: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+498:5: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+--------------------------------------------------------------------------------
+
